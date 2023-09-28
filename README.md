@@ -2,11 +2,11 @@
 
 ### Vamos a configurar tu terminal de windows para que deje de verse así de fea:
 
-![Windows Terminal Old | 200 ](Windows.Terminal/Windos-Terminal-Old.jpg) 
+![Windows Terminal Old | 200 ](Windows.Terminal/Windows-Terminal-Old.jpg) 
 
 Y se vea así de bonita:
 
-![Windows Terminal New | 200 ](Windows.Terminal/Windos-Terminal-New.jpg) 
+![Windows Terminal New | 200 ](Windows.Terminal/Windows-Terminal-New.jpg) 
 
 ### Lo primero que hacemos es instalar ods aplicaciones desde la Microsoft Store
 
