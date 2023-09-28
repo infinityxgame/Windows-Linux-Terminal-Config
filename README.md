@@ -1,29 +1,17 @@
-# Configuración de Terminal de Windows
+# Configuración de la terminal de windows para darle un mejor estilo
 
-### Vamos a configurar tu terminal de windows para que deje de verse así de fea:
+### Imagen de muestra de como quedaría nuestra terminal ya configurada
 
-![Windows Terminal Old | 400](Windows.Terminal/Windows-Terminal-Old.jpg) 
+![Windows Terminal Complete](Windows.Terminal/Windows-Terminal-Complete.jpg)
 
-Y se vea así de bonita:
+### Para la configuración vamos a necesitar tener instalado lo siguiente:
 
-![Windows Terminal New | 300](Windows.Terminal/Windows-Terminal-New.jpg) 
+1. Windows Terminal (Instalar desde Microsoft Store)
 
-### Lo primero que hacemos es instalar ods aplicaciones desde la Microsoft Store
+2. PowerShell (Instalar desde Microsoft Store)
 
-#### Instalamos estas dos aplicaciones y no la abrimos
+3. OhMyPosh (Instalar desde powershell)
 
-1. Windows Terminal: necesitamos esta ya que tiene más funcionalidades que la terminal que viene por defecto con Windows
+Para instalar OhMyPosh debemos ver la documentación en su [Web oficial](http://ohmyposh.dev) donde vienen todos los pasos.
 
-2.  PowerShell: esta es la última versión de la powershell de windows, también la necesitamos 
-
-#### Tips: si no te funciona por alguna razón la Microsoft Store o simplemente deseas instalarlas usando comandos puedes hacer lo siquiente:
-
-1. Abrimos la PowerShell de Windows
-2. Para instalar Windows Terminal ponermos el siguiente comando:
-    * ```winget install --id=Microsoft.WindowsTerminal -e```
-
-#### Listo ahora que tenemos ambas aplicaciones procedemos a abrir la terminal instalada, para ellos en el menú inicio de windows escribimos "terminal" y la abrimos
-
-![Open Terminal | 200](Windows.Terminal/Open-Terminal.jpg) 
-
-### Ahora vamos a la configuración de la terminal para hacer unos cambios
+Les dejo los archivos de mi configuración al igual que el documento [WindowsTerminal.md](https://github.com/infinityxgame/Windows-Terminal-Config/blob/main/WindowsTerminal.md) donde viene detallado todo el proceso que se debe realizar, así no tienen que estar leyendose la documentación 
