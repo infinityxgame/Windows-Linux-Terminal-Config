@@ -8,7 +8,7 @@ Y se vea así de bonita:
 
 ![Windows Terminal New | 300](Windows.Terminal/Windows-Terminal-New.jpg) 
 
-### Lo primero que hacemos es instalar ods aplicaciones desde la Microsoft Store.
+### Lo primero que hacemos es instalar dos aplicaciones desde la Microsoft Store.
 
 #### Instalamos estas dos aplicaciones y no la abrimos.
 
@@ -33,7 +33,7 @@ Y se vea así de bonita:
 
 ![Terminal Config | 200](Windows.Terminal/Terminal-Config.jpg) 
 
-Dentro de la configuración en vamos al apartado de "Inicio" o "Startup" (en caso de tener la terminal en inglés).
+Dentro de la configuración vamos al apartado de "Inicio" o "Startup" (en caso de tener la terminal en inglés).
 
 1. Dentro de esto buscamos lo que dice "Perfil predeterminado" o "Default profile" y debe decir Windows PowerShell, esto lo cambiamos a PowerShell para que al abrir la terminal inicie con la nueva PowerShell de Microsoft.
 
@@ -53,7 +53,7 @@ Dentro de este archivo buscamos lo que dice "schemes" sería algo así:
 
 ![Schemes Config](Windows.Terminal/Schemes-Config.jpg)
 
-Dentro van a venir los diferentes temas que trae por defecto uno de ellos es el que viene en la foto de arriba de ejemplo, dentro de esto vamos a agregar nuestro tema personalizado, nos vamos al final de scheme y antes de ] agregamos el tema, para esto buscamos el último tema y al final de este agregamos una "," y en la siguiente línea pegamos nuestro tema, te dejo de ejemplo el que yo utilizo:
+Dentro van a venir los diferentes temas que trae por defecto uno de ellos es el que viene en la foto de arriba de ejemplo, dentro de esto vamos a agregar nuestro tema personalizado, nos vamos al final de scheme y antes de "]" agregamos el tema, para esto buscamos el último tema y al final de este agregamos una "," y en la siguiente línea pegamos nuestro tema, te dejo de ejemplo el que yo utilizo:
 
 ```{
             "background": "#181A1F",
@@ -82,9 +82,9 @@ Dentro van a venir los diferentes temas que trae por defecto uno de ellos es el 
 
 Ahora vamos a la configuración de la terminal y ya debe parecer el tema agregado por tí, lo seleccionamos en mi caso se llama "InfinityxGame 2" y luego bajamos y damos clic en "Establecer como predeterminado" o "Set as default"
 
-Ahora vamos a cambiar la barra de título para que se aplicque una capa transparente y se ve mejor, vamos a la configuración y a la izquierda en "Apariencia" o "Appearance" activamos lo que dice "Use acrylic material in the tab row" y guardamos
+Ahora vamos a cambiar la barra de título para que se aplicque una capa transparente y se vea mejor, vamos a la configuración y a la izquierda en "Apariencia" o "Appearance" activamos lo que dice "Use acrylic material in the tab row" y guardamos
 
-Ahora vamos a instalar un Prompt Theme llamado OhMyPosh, esta es la web oficial del mismo [OhMyPosh](http://ohmyposh.dev)
+Procedemos a instalar un Prompt Theme llamado OhMyPosh, esta es la web oficial del mismo [OhMyPosh](http://ohmyposh.dev)
 
 Para instalar esto tenemos que asegurarnos que tenemos winget instalado, nos vamos a la Microsoft Store y buscamos winget y debe aparecer algo llamado App Installer, esto debe venir por defecto en el sistema operativo.
 
