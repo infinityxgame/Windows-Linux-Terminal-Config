@@ -1,0 +1,2 @@
+(@(& 'C:/Users/Infinityx/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\Infinityx\AppData\Local\Programs\oh-my-posh\themes\craver.omp.json' --print) -join "`n") | Invoke-Expression
+Import-Module Terminal-Icons
