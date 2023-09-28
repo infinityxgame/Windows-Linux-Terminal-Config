@@ -20,7 +20,7 @@ Y se vea así de bonita:
 
 1. Abrimos la PowerShell de Windows
 2. Para instalar Windows Terminal ponermos el siguiente comando:
-    * `winget install --id=Microsoft.WindowsTerminal -e`
+    * ```winget install --id=Microsoft.WindowsTerminal -e```
 
 #### Listo ahora que tenemos ambas aplicaciones procedemos a abrir la terminal instalada, para ellos en el menú inicio de windows escribimos "terminal" y la abrimos
 
