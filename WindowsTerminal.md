@@ -92,13 +92,13 @@ Ahora escribimos lo siguiente en la terminal lo siguiente para instalar OhMyPosh
 
 ```winget install JanDeDobbeleer.OhMyPosh -s winget```
 
-Esperamos a que instale y ahora vamos a instalar fuentes personalizadas para cambiar la de nuestra terminal para esto debemos abrir la terminal como administrador y escrubimos el siguiente comando:
+Esperamos a que instale y ahora vamos a instalar fuentes personalizadas para cambiar la de nuestra terminal para esto debemos abrir la terminal como administrador y escribimos el siguiente comando:
 
 ```oh-my-posh font install```
 
-Esto nos muestra una lista de fuentes en la que buscamos la que deseemos, en mi caso voy a usar FiraCode, debemos ir bajando hasta buscar la deseada y luego presionamos eter y esta empieza a descargarse
+Esto nos muestra una lista de fuentes en la que buscamos la que deseemos, en mi caso voy a usar FiraCode, debemos ir bajando hasta buscar la deseada y luego presionamos eter y esta empieza a descargarse.
 
-Para activar la fuente debemos cerrar la terminal y volverla a abrir pero esta vez como usuario y no como administrador, vamos a al configuración de la terminal y a la izquierda donde pone "Valores predeterminados" o "Default", en este apartado vamos a "Apariencia" o "Appearance" y dentro de texto en Tipo de fuente aparece la instalada por nosotros, la seleccionamos y guardamos
+Para activar la fuente debemos cerrar la terminal y volverla a abrir pero esta vez como usuario, no como administrador, vamos a la configuración de la terminal y a la izquierda donde pone "Valores predeterminados" o "Default", en este apartado vamos a "Apariencia" o "Appearance" y dentro de texto en Tipo de fuente aparece la instalada por nosotros, la seleccionamos y guardamos
 
 ![Schemes Config](Windows.Terminal/Terminal-Font-Config.jpg)
 
@@ -114,43 +114,43 @@ Luego de pegar eso debería quedarnos algo así:
 
 ![Prompt Theme](Windows.Terminal/Prompt-Theme-Config.jpg)
 
-Ahora vamos a cambiar le tema, para ver todos los disponibles escribimos el comando:
+Ahora vamos a cambiar el tema, para ver todos los disponibles escribimos el comando:
 
 ```Get-PoshThemes```
 
-Luego de dar enter aparecen todos y nos muestra con un ejemplo como se vería nuestra terminal, buscamos el tema deseado y en el nombre dle tema apretamos Ctrl + Clic en él y esto nos abre en uestro editor de código predeterminado el archivo del tema, solo debemos fijarnos en el nombre del archivo que es lo que necesitamos.
+Luego de dar enter aparecen todos y nos muestra con un ejemplo como se vería nuestra terminal, buscamos el tema deseado y en el nombre del tema apretamos Ctrl + Clic en él y esto nos abre en uestro editor de código predeterminado el archivo del tema, solo debemos fijarnos en el nombre del archivo que es lo que necesitamos.
 
 Luego para aplicar el tema volvemos a escribir el mismo código que pusimos anteriormente para cargar el que tenemos pero debemos cambiar el nombre del tema al que deseemos pero no ejecutamos el comando simplemente lo copiamos, en mi caso uso el tema craver y quedaría así:
 
 ```(@(& 'C:/Users/Infinityx/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\Infinityx\AppData\Local\Programs\oh-my-posh\themes\craver.omp.json' --print) -join "`n") | Invoke-Expression```
 
-Ahora vamos a decirle a la terminal que debe abrir el tema seleccionado cada vez que abramos la misma, para eso abrimos el archivo configuración para eso ponemos el comando:
+Ahora vamos a decirle a la terminal que debe abrir el tema seleccionado cada vez que abramos la misma, debemos el archivo configuración para eso ponemos el comando:
 
 ```code $PROFILE```
 
-Tip: en mi caso escribo "code" delante porque uso Visual Studio Code como editor ya que me gusta más pero puedes usar notepad reemplazando "code" por "notepad"
+Nota: en mi caso escribo "code" delante porque uso Visual Studio Code como editor ya que me gusta más pero puedes usar notepad reemplazando "code" por "notepad" o cualquier otor que desees.
 
 Puede que te arroje un error de que no encuentra el archivo en el path, para eso ponemos el siguiente comando:
 
 ```New-Item -Path $PROFILE -Type File -Force```
 
-Esto nos devuelve alfgo así:
+Esto nos devuelve algo así:
 
 ![Promtp Theme Profile](Windows.Terminal/Prompt-Theme-Profile.jpg)
 
-Y ahora si podemos ejecutar el comando "```code $PROFILE```". Esto nos abre el archivo de configuración y pegamos el comando que copiamos previamente del tema, sería el siguiente: 
+Y ahora si podemos ejecutar el comando "```code $PROFILE```". Esto nos abre el archivo de configuración y pegamos el comando que copiamos previamente del tema y guardamos, sería el siguiente: 
 
 ```(@(& 'C:/Users/Infinityx/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\Infinityx\AppData\Local\Programs\oh-my-posh\themes\craver.omp.json' --print) -join "`n") | Invoke-Expression```
 
-Ahora cerramos la terminal y la volvemos a abrir y verás como ya tiene el tema seleccionado por tí, ahora vamos a agregarle íconos para que se vea mejor nuestra terminal ya que si ejecutamos el comando "ls" nos muestra los archivos del directorio pero se ve feo.
+Ahora cerramos la terminal y la volvemos a abrir y verás como ya tiene el tema seleccionado por tí, vamos a agregarle íconos para que se vea mejor nuestra terminal ya que si ejecutamos el comando "ls" nos muestra los archivos del directorio pero no es tan bonito.
 
 Para instalar los íconos debemos poner le siguiente comando en la terminal:
 
 ```Install-Module -Name Terminal-Icons -Repository PSGallery```
 
-ahora nos muestra un mensaje de alerta de que no confia en el repositorio de PSGallery, debemos escribir la letra A en mayúsculas y presionar enter para que acepte todos los paquetes de dicho repositorio, es una instalación bastante rápida, ahora debemos activarlos. 
+Nos muestra un mensaje de alerta de que no confia en el repositorio de PSGallery, debemos escribir la letra A en mayúsculas y presionar enter para que acepte todos los paquetes de dicho repositorio, es una instalación bastante rápida, pero debemos activarlos ya que no se muestran por si solos. 
 
-Para activarlos debemos copiar un comando dentro del perfíl de configuración, para esot escribimos "ccode $PROFILE" o con el ditor que deseen y en una nueva línea agregamos lo siguiente:
+Para activarlos debemos copiar un comando dentro del perfíl de configuración, escribimos "code $PROFILE" o con el ditor que deseen y en una nueva línea agregamos lo siguiente:
 
 ```Import-Module Terminal-Icons```
 
@@ -158,9 +158,9 @@ Guardamos, y al volver a abrir nuestra terminal tenemos los íconos aplicados, p
 
 ![Promtp Theme Profile](Windows.Terminal/Prompt-Theme-Icons.jpg)
 
-Como último PowerShell tien un mçodulo llamado "PSReadLine" que noes ayuda recomendándonos comandos a medida que escribimos en la terminal y si queremos el comando debemos presionar la flecha derecha y nos autocompleta con el mismo.
+Como último PowerShell tien un mçodulo llamado "PSReadLine" que nos ayuda recomendándonos comandos a medida que escribimos en la terminal y si queremos el comando debemos presionar la flecha derecha y nos autocompleta con el mismo.
 
-Este módulo tiene una opción que nos sugiere a medida que escribimos algo nos muestra todo el historial de comandos que hemos ejecutado que contiene parte de lo que hemos escrito y podemos desplazarnos y ejecutar alguno, algo como esto:
+Este módulo tiene una opción que nos sugiere a medida que escribimos algo todo el historial de comandos que hemos ejecutado que contiene parte de lo escrito y podemos desplazarnos y ejecutar alguno, algo como esto:
 
 ![Prompt Command History](Windows.Terminal/Prompt-Command-History.jpg)
 
