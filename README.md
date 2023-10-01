@@ -6,7 +6,7 @@
 
 ### Para la configuración vamos a necesitar tener instalado lo siguiente:
 
-1. Windows Terminal (Instalar desde Microsoft Store): Una versión nueva de la terminal que nos permite configurar diferentes opcionesl.
+1. Windows Terminal (Instalar desde Microsoft Store): Una versión nueva de la terminal que nos permite configurar diferentes opciones.
 2. PowerShell (Instalar desde Microsoft Store): Ultima versión de la PowerShell de Microsoft Windows.
 3. OhMyPosh (Instalar desde powershell): OhMyposh permite agregarle un tema a nuestra terminal, sea powershell en windows o alguna como bash en linux, en este caso lo usaremos en windows.
 4. Terminal-Icons (Instalar desde powershell): Terminal-Icons es un módulo que nos permite visualizar diferentes íconos a nuestras carpetas y archivos al usar comandos en nuestra powershell.
