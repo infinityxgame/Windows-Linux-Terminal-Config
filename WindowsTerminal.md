@@ -176,6 +176,11 @@ Yo no lo dejo activo ya que no me gusta pero si tú deseas dejarlo activo solo d
 
 ### Como configuración adicional yo cambio ciertas cosas
 
+En los ejemplos de arriba siempre puse como tema craver que viene por defecto al instalar OhMyPosh pero para mi use uno personalizado tomando como referencia el tema half-life.omp.json que viene dentro del programa y le realicé cambios a mi gusto, dicho tema lo dejé en la carpeta Config del repositorio por si les interesa y les gusta como queda.
+
+Mi tema de OhMyPosh quedaría así:
+![Prompt Command History](Windows.Terminal/MyTheme.jpg)
+
 Peronalmente me gusta la terminal con algo de transparencia, para esto voy a la configuración de la terminal y en Valores predeterminados voy al apartado de apariencia, busco donde dice transparencia y en opacidad del fondo lo dejo al 90% y guardo el cambio.
 
 Esto depende ya del gusto de cada cual, podemos agregar opacidad al fondo al igual que habilitar el materia lacrílico para que se vea con blur, solo deben probar como les gusta más.
