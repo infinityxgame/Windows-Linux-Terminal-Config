@@ -24,4 +24,4 @@ Archivos de configuración:
 
 **Microsoft.PowerShell_profile.ps1**: configuración predeterminada que debe debe ejecutar PowerShell al abrir la terminal 
 
-**InfinityxGame.omp.json**: El tema personalizado que uso en OhMyPosh, es una versión del tema half-life.omp.json que viene incluído dentro del programa pero con cambios a mi gusto.  
+**InfinityxGame.omp.json**: El tema personalizado que uso en OhMyPosh, es una versión del tema half-life.omp.json que viene incluído dentro del programa pero con cambios a mi gusto. Si desean utilizar este tema solo tienen que descargar el archivo y copiarlo en la siguiente ruta: C:\Users\username\AppData\Local\Programs\oh-my-posh\themes\, cambiando lo que dice "username" por tu nomrbe de usuario en windows y para aplicarlo editar el $PROFILE de powershell y editar el nombre del tema.
