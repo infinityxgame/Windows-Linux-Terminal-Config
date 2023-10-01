@@ -18,7 +18,10 @@ Les dejo los archivos de mi configuración al igual que el documento [WindowsTer
 Archivos de configuración:
 1. settings.json 
 2. Microsoft.PowerShell_profile.ps1
+3. InfinityxGame.omp.json
 
-**settings.json**: contiene la configuración de la terminal donde dentro esta mi tema personalizado, es solo copiar el código del tema y pegarlo en el lugar correspondiente dentro de la configuración de la misma
+**settings.json**: contiene la configuración de la terminal donde dentro esta mi tema personalizado, es solo copiar el código del tema y pegarlo en el lugar correspondiente dentro de la configuración de la misma, ojo esto es el tema como tal de la terminal no el de la línea de comandos
 
 **Microsoft.PowerShell_profile.ps1**: configuración predeterminada que debe debe ejecutar PowerShell al abrir la terminal 
+
+**InfinityxGame.omp.json**: El tema personalizado que uso en OhMyPosh, es una versión del tema half-life.omp.json que viene incluído dentro del programa pero con cambios a mi gusto.  
