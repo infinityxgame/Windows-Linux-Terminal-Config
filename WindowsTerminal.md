@@ -56,7 +56,7 @@ Dentro de este archivo buscamos lo que dice "schemes" sería algo así:
 Dentro van a venir los diferentes temas que trae por defecto uno de ellos es el que viene en la foto de arriba de ejemplo, dentro de esto vamos a agregar nuestro tema personalizado, nos vamos al final de scheme y antes de "]" agregamos el tema, para esto buscamos el último tema y al final de este agregamos una "," y en la siguiente línea pegamos nuestro tema, te dejo de ejemplo el que yo utilizo:
 
 ```
-         {
+        {
             "background": "#181A1F",
             "black": "#181A1F",
             "blue": "#61AFEF",
