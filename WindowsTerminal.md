@@ -181,9 +181,9 @@ En los ejemplos de arriba siempre puse como tema craver que viene por defecto al
 Mi tema de OhMyPosh quedaría así:
 ![Prompt Command History](Windows.Terminal/MyTheme.jpg)
 
-Peronalmente me gusta la terminal con algo de transparencia, para esto voy a la configuración de la terminal y en Valores predeterminados voy al apartado de apariencia, busco donde dice transparencia y en opacidad del fondo lo dejo al 90% y guardo el cambio.
+también personalmente me gusta la terminal con algo de transparencia, para esto voy a la configuración de la terminal y en Valores predeterminados voy al apartado de apariencia, busco donde dice transparencia y en opacidad del fondo lo dejo al 90% y guardo el cambio.
 
-Esto depende ya del gusto de cada cual, podemos agregar opacidad al fondo al igual que habilitar el materia lacrílico para que se vea con blur, solo deben probar como les gusta más.
+Esto depende ya del gusto de cada cual, podemos agregar opacidad al fondo al igual que habilitar el materia acrílico para que se vea con blur, solo deben probar como les gusta más.
 
 ### Listo ya estaría configurada la termianl de forma que se ve mucho más bonita y agradable de cara al usuario.
 
