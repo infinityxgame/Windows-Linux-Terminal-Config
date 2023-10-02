@@ -1,6 +1,6 @@
-# Configuración de Terminal de Windows
+# Configuración de Terminal de Linux
 
-### Vamos a configurar tu terminal de windows para que deje de verse así de fea:
+### Vamos a configurar tu terminal de Linux para que deje de verse así de fea:
 
 ![Linux Terminal Old](Linux.Terminal/Linux-Terminal-Empty.jpg) 
 
@@ -16,11 +16,11 @@ Por defecto, el script se instalará en `/usr/local/bin` o la carpeta de instala
 
 ```curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/midirectorio```
 
-### Listo ahora que tenemos instalado OhMyPosh vamos a instalar otra utilidad llamada lsd
+### Listo ahora que lo tenemos instalado vamos a instalar otra utilidad llamada lsd
 
 lsd nos va a permitir colorear la salida del comando ls con su respectivos iconos en nuestra terminal y así tendremos algo mucho más bonito. Para instalarlo debemos hacerlo desde el repo oficial de nuestra distribución, en mi caso que uso ubuntu es con el comendo: 
 
-``` sudo apt install lsd```
+```sudo apt install lsd```
 
 ### Ahora vamos a configurar para que se ejecute lsd y OhMyPosh en nuestra terminal
 
