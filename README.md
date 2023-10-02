@@ -1,4 +1,8 @@
-# Configuración de la terminal de windows para darle un mejor estilo
+# Configuración de nuestra terminal en windows y linux para darle un mejor estilo
+
+<br>
+
+## 1. Comenzamos con nuestra terminal de Windows
 
 ### Imagen de muestra de como quedaría nuestra terminal ya configurada
 
@@ -13,9 +17,9 @@
 
 Para instalar OhMyPosh debemos ver la documentación en su [Web oficial](http://ohmyposh.dev) donde vienen todos los pasos.
 
-Les dejo los archivos de mi configuración al igual que el documento [WindowsTerminal.md](https://github.com/infinityxgame/Windows-Terminal-Config/blob/main/WindowsTerminal.md) donde viene detallado todo el proceso que se debe realizar, así les ahorro tiempo en leer la doc oficial e incluso vienen otros detalles que no vienen con OhMyPosh y son de utilidad.
+Les dejo los archivos de mi configuración al igual que el documento [WindowsTerminal.md](https://github.com/infinityxgame/Windows-Linux-Terminal-Config/blob/main/WindowsTerminal.md) donde viene detallado todo el proceso que se debe realizar, así les ahorro tiempo en leer la doc oficial e incluso vienen otros detalles que no vienen con OhMyPosh y son de utilidad.
 
-Archivos de configuración:
+Archivos de configuración (Dentro de la carpeta Windows-Config):
 1. settings.json 
 2. Microsoft.PowerShell_profile.ps1
 3. InfinityxGame.omp.json
@@ -24,4 +28,35 @@ Archivos de configuración:
 
 **Microsoft.PowerShell_profile.ps1**: configuración predeterminada que debe debe ejecutar PowerShell al abrir la terminal 
 
-**InfinityxGame.omp.json**: El tema personalizado que uso en OhMyPosh, es una versión del tema half-life.omp.json que viene incluído dentro del programa pero con cambios a mi gusto. Si desean utilizar este tema solo tienen que descargar el archivo y copiarlo en la siguiente ruta: C:\Users\username\AppData\Local\Programs\oh-my-posh\themes\, cambiando lo que dice "username" por tu nombre de usuario en windows y para aplicarlo editar el $PROFILE de powershell y editar el nombre del tema.
+**InfinityxGame-Linux.omp.json**: El tema personalizado que uso en OhMyPosh, es una versión del tema half-life.omp.json que viene incluído dentro del programa pero con cambios a mi gusto. Si desean utilizar este tema solo tienen que descargar el archivo y copiarlo en la siguiente ruta: C:\Users\username\AppData\Local\Programs\oh-my-posh\themes\, cambiando lo que dice "username" por tu nombre de usuario en windows y para aplicarlo editar el $PROFILE de powershell y editar el nombre del tema.
+
+## 2. Comenzamos con nuestra terminal de Windows
+
+### Imagen de muestra de como quedaría nuestra terminal ya configurada
+
+![Linux Terminal Complete](Linux.Terminal/Linux-Terminal-Full.jpg)
+
+Nota: No se fijen en el nombre de la ventana ya que dice powershell pero en realidad es ubuntu, eso pasa porque tengo instalado ubuntu en wsl (subsistema de windows para linux) y como estoy utulizando la nueva terminal a veces no pone bien el nombre al abrir wsl. 
+
+### Para la configuración en linux solo vamos a necesitar tener instalado dos cosas:
+
+
+1. OhMyPosh (Instalar desde la terminal): OhMyposh permite agregarle un tema a nuestra terminal, sea powershell en windows o alguna como bash en linux, en este caso lo usaremos en linux.
+
+2. lsd: LSD es un proyecto cuya finalidad consiste en colorear la salida del comando ls con su respectivos iconos
+
+Para instalar OhMyPosh debemos ver la documentación en su [Web oficial](http://ohmyposh.dev) donde vienen todos los pasos.
+
+Les dejo los archivos de mi configuración al igual que el documento [WindowsTerminal.md](enlace aquí) donde viene detallado todo el proceso que se debe realizar.
+
+Como archivos de configuración solo voy a dejar uno que sería mi tema personalizado, es el mismo que uso en la PowerShell pero tiene un cambio menor para poder identificar cuando estoy en una terminal o en la otra.
+
+Archivos de configuración (Dentro de la carpeta Linux-Config):
+
+1. InfinityxGame.omp.json
+
+**InfinityxGame-Linux.omp.json**: El tema personalizado que uso en OhMyPosh, es una versión del tema half-life.omp.json que viene incluído dentro del programa pero con cambios a mi gusto. Si desean utilizar este tema solo tienen que descargar el archivo y copiarlo en ruta que usted desee, en mi caso lo tengo en el HOME de mi usuario de sistema en una carpeta que cree llamada ".poshtheme", y para aplicar el tema solo tienen que poner dentro de su archivo .bashrc o .profile dependiendo de tu distribución lo siguiente:
+
+```eval "$(oh-my-posh init bash --config ~/.poshthemes/InfinityxGame.omp.json)"```
+
+Donde "~/.poshthemes/InfinityxGame.omp.json" es la ruta donde esta el archivo de mi tema.
