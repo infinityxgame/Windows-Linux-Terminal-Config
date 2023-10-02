@@ -73,7 +73,7 @@ Listo si todo ha salido bien la terminal debe verse como en el ejemplo del princ
 
 Para ver la lista de temas en caso de que desee utilizar uno diferente deben ir a la web oficial en el siguiente enlace: [Temas OhMyposh](https://ohmyposh.dev/docs/themes) 
 
-En windows con powershell ejecutando el comando `Get-PoshThemes` nos sale en consola la lista de temas pero para linux no hay ningñun comando que haga esto por lo que tienen que visitar la web oficial y revisar entre los temas disponibles.
+En windows con powershell ejecutando el comando `Get-PoshThemes` nos sale en consola la lista de temas pero para linux no hay ningún comando que haga esto por lo que tienen que visitar la web oficial y revisar entre los temas disponibles.
 
 ## Esto es todo ya con esta configuración deberíamos tener lista nuestra terminal 
 
