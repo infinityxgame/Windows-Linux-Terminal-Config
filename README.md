@@ -60,3 +60,5 @@ Archivos de configuración (Dentro de la carpeta Linux-Config):
 ```eval "$(oh-my-posh init bash --config ~/.poshthemes/InfinityxGame.omp.json)"```
 
 Donde "~/.poshthemes/InfinityxGame.omp.json" es la ruta donde esta el archivo de mi tema.
+
+### Espero te sirva, adios :wave:.
