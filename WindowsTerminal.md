@@ -103,9 +103,9 @@ Para activar la fuente debemos cerrar la terminal y volverla a abrir pero esta v
 
 ![Schemes Config](Windows.Terminal/Terminal-Font-Config.jpg)
 
-Para activar OhMyPosh debemos poner en la terminal el siguiente comando que nos va mostrar como se verá el Prompt Theme con uno por defecto que podremos cambiar después: 
+Para activar OhMyPosh debemos poner en la terminal el siguiente comando que nos va mostrar como se verá el Prompt Theme con uno por defecto que podremos cambiar después, cambiar del comando tu nombre de usuario: 
 
-```oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json"```
+```(@(& 'C:/Users/Infinityx/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\Infinityx\AppData\Local\Programs\oh-my-posh\themes\InfinityxGame.omp.json' --print) -join "`n") | Invoke-Expression```
 
 y Esto nos devuelve otro comando que debemos copiar y pegar para activar el tema algo como esto:
 
