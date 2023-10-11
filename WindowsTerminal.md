@@ -123,7 +123,7 @@ Luego de dar enter aparecen todos y nos muestra con un ejemplo como se vería nu
 
 Luego para aplicar el tema volvemos a escribir el mismo código que pusimos anteriormente para cargar el que tenemos pero debemos cambiar el nombre del tema al que deseemos pero no ejecutamos el comando simplemente lo copiamos, en mi caso uso el tema craver y quedaría así:
 
-```(@(& 'C:/Users/Infinityx/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\Infinityx\AppData\Local\Programs\oh-my-posh\themes\craver.omp.json' --print) -join "`n") | Invoke-Expression```
+```(@(& 'oh-my-posh' init pwsh --config='$env:POSH_THEMES_PATH\craver.omp.json' --print) -join "`n") | Invoke-Expression```
 
 Ahora vamos a decirle a la terminal que debe abrir el tema seleccionado cada vez que abramos la misma, debemos el archivo configuración para eso ponemos el comando:
 
