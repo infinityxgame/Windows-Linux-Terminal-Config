@@ -105,11 +105,11 @@ Para activar la fuente debemos cerrar la terminal y volverla a abrir pero esta v
 
 Para activar OhMyPosh debemos poner en la terminal el siguiente comando que nos va mostrar como se verá el Prompt Theme con uno por defecto que podremos cambiar después, cambiar del comando tu nombre de usuario: 
 
-```(@(& 'C:/Users/Infinityx/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\Infinityx\AppData\Local\Programs\oh-my-posh\themes\InfinityxGame.omp.json' --print) -join "`n") | Invoke-Expression```
+```oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\InfinityxGame.omp.json"```
 
 y Esto nos devuelve otro comando que debemos copiar y pegar para activar el tema algo como esto:
 
-```(@(& 'C:/Users/Infinityx/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\Infinityx\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json' --print) -join "`n") | Invoke-Expression```
+```(@(& 'C:/Users/Infinityx/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\Infinityx\AppData\Local\Programs\oh-my-posh\themes\craver.omp.json' --print) -join "`n") | Invoke-Expression```
 
 Luego de pegar eso debería quedarnos algo así:
 
