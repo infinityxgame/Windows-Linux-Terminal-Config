@@ -55,7 +55,7 @@ Archivos de configuración (Dentro de la carpeta Linux-Config):
 
 1. InfinityxGame.omp.json
 
-**InfinityxGame-Linux.omp.json**: El tema personalizado que uso en OhMyPosh, es una versión del tema half-life.omp.json que viene incluído dentro del programa pero con cambios a mi gusto. Si desean utilizar este tema solo tienen que descargar el archivo y copiarlo en ruta que usted desee, en mi caso lo tengo en el HOME de mi usuario de sistema en una carpeta que cree llamada ".poshtheme", y para aplicar el tema solo tienen que poner dentro de su archivo .bashrc o .profile dependiendo de tu distribución lo siguiente:
+**InfinityxGame-Linux.omp.json**: El tema personalizado que uso en OhMyPosh, es una versión del tema half-life.omp.json que viene incluído dentro del programa pero con cambios a mi gusto. Si desean utilizar este tema solo tienen que descargar el archivo y copiarlo en ruta que usted desee, en mi caso lo tengo en el HOME de mi usuario de sistema en una carpeta que cree llamada ".poshtheme", y para aplicar el tema solo tienen que poner dentro de su archivo .bashrc o .profile dependiendo de tu distribución y de la consola que uses lo siguiente:
 
 ```eval "$(oh-my-posh init bash --config ~/.poshthemes/InfinityxGame.omp.json)"```
 
