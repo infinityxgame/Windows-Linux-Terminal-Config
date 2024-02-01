@@ -30,7 +30,7 @@ Archivos de configuración (Dentro de la carpeta Windows-Config):
 
 **InfinityxGame-Linux.omp.json**: El tema personalizado que uso en OhMyPosh, es una versión del tema half-life.omp.json que viene incluído dentro del programa pero con cambios a mi gusto. Si desean utilizar este tema solo tienen que descargar el archivo y copiarlo en la siguiente ruta: C:\Users\username\AppData\Local\Programs\oh-my-posh\themes\, cambiando lo que dice "username" por tu nombre de usuario en windows y para aplicarlo editar el $PROFILE de powershell y editar el nombre del tema.
 
-## 2. Configuración en la terminal de Linux
+## 3. Configuración en la terminal de Linux
 
 ### Imagen de muestra de como quedaría nuestra terminal ya configurada
 
@@ -63,6 +63,10 @@ Donde "~/.poshthemes/InfinityxGame.omp.json" es la ruta donde esta el archivo de
 
 ## 2. Configuración en la terminal CMD de Windows
 
+### Imagen de muestra de como quedaría nuestra terminal ya configurada
+
+![Windows Terminal Complete](Windows.Terminal/CMDShell-Complete.jpg)
+
 ### Para la configuración vamos a necesitar tener instalado lo siguiente:
 
 1. Windows Terminal (Instalar desde Microsoft Store): Una versión nueva de la terminal que nos permite configurar diferentes opciones.
@@ -72,6 +76,6 @@ Donde "~/.poshthemes/InfinityxGame.omp.json" es la ruta donde esta el archivo de
 Para instalar OhMyPosh debemos ver la documentación en su [Web oficial](http://ohmyposh.dev) donde vienen todos los pasos.
 Para Instalar Clink debemos bajar el la última release del programa desde github e instalarlo: [Descargar Clink](https://github.com/chrisant996/clink/releases)
 
-Les dejo el documento [WindowsTerminalCmd.md](https://github.com/infinityxgame/Windows-Linux-Terminal-Config/blob/main/WindowsTerminalCmd.md) donde viene detallado todo el proceso que se debe realizar, así les ahorro tiempo en leer la doc oficial e incluso vienen otros detalles que no vienen con OhMyPosh y son de utilidad.
+Les dejo el documento [WindowsTerminalCmd.md](https://github.com/infinityxgame/Windows-Linux-Terminal-Config/blob/main/WindowsTerminalCmd.md) donde viene detallado todo el proceso que se debe realizar, así les ahorro tiempo en leer la doc oficial.
 
 ### Espero te sirva, adios :wave:.
