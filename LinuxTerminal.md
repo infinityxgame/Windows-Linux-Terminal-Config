@@ -18,7 +18,7 @@ Por defecto, el script se instalará en `/usr/local/bin` o la carpeta de instala
 
 ### Listo ahora que lo tenemos instalado vamos a instalar otra utilidad llamada lsd
 
-lsd nos va a permitir colorear la salida del comando ls con su respectivos iconos en nuestra terminal y así tendremos algo mucho más bonito. Para instalarlo debemos hacerlo desde el repo oficial de nuestra distribución, en mi caso que uso ubuntu es con el comendo: 
+lsd nos va a permitir colorear la salida del comando ls con su respectivos iconos en nuestra terminal y así tendremos algo mucho más bonito. Para instalarlo debemos hacerlo desde el repo oficial de nuestra distribución, en mi caso que uso ubuntu es con el comando: 
 
 ```sudo apt install lsd```
 
