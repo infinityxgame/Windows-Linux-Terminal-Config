@@ -1,4 +1,4 @@
-# Configuración de Terminal de Windows
+# Configuración de Terminal PowerShell de Windows 
 
 ### Vamos a configurar tu terminal de windows para que deje de verse así de fea:
 
