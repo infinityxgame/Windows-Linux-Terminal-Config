@@ -9,7 +9,7 @@
 #### Tip: si no quieres instalarla desde la Microsoft Store puedes hacerlo usando este comando:
 
 1. Abrimos la PowerShell de Windows
-2. Para instalar Windows Terminal ponermos el siguiente comando:
+2. Para instalar Windows Terminal ponemos el siguiente comando:
     * ```winget install --id=Microsoft.WindowsTerminal -e```
 
 #### OJO👁️ Para la instalación mediante este comando asegúrate de tener la última versión de winget ya que en caso de no tenerlo actualizado les saltará error, este lo puede actualizar desde la propia tienda
