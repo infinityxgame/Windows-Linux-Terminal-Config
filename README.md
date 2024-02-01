@@ -30,7 +30,7 @@ Archivos de configuración (Dentro de la carpeta Windows-Config):
 
 **InfinityxGame-Linux.omp.json**: El tema personalizado que uso en OhMyPosh, es una versión del tema half-life.omp.json que viene incluído dentro del programa pero con cambios a mi gusto. Si desean utilizar este tema solo tienen que descargar el archivo y copiarlo en la siguiente ruta: C:\Users\username\AppData\Local\Programs\oh-my-posh\themes\, cambiando lo que dice "username" por tu nombre de usuario en windows y para aplicarlo editar el $PROFILE de powershell y editar el nombre del tema.
 
-## 3. Configuración en la terminal de Linux
+## 2. Configuración en la terminal de Linux
 
 ### Imagen de muestra de como quedaría nuestra terminal ya configurada
 
@@ -61,7 +61,7 @@ Archivos de configuración (Dentro de la carpeta Linux-Config):
 
 Donde "~/.poshthemes/InfinityxGame.omp.json" es la ruta donde esta el archivo de mi tema.
 
-## 2. Configuración en la terminal CMD de Windows
+## 3. Configuración en la terminal CMD de Windows
 
 ### Imagen de muestra de como quedaría nuestra terminal ya configurada
 
