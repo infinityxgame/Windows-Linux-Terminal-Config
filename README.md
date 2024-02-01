@@ -17,7 +17,7 @@
 
 Para instalar OhMyPosh debemos ver la documentación en su [Web oficial](http://ohmyposh.dev) donde vienen todos los pasos.
 
-Les dejo los archivos de mi configuración al igual que el documento [WindowsTerminal.md](https://github.com/infinityxgame/Windows-Linux-Terminal-Config/blob/main/WindowsTerminal.md) donde viene detallado todo el proceso que se debe realizar, así les ahorro tiempo en leer la doc oficial e incluso vienen otros detalles que no vienen con OhMyPosh y son de utilidad.
+Les dejo los archivos de mi configuración al igual que el documento [WindowsTerminalPwshell.md](https://github.com/infinityxgame/Windows-Linux-Terminal-Config/blob/main/WindowsTerminalPwshell.md) donde viene detallado todo el proceso que se debe realizar, así les ahorro tiempo en leer la doc oficial e incluso vienen otros detalles que no vienen con OhMyPosh y son de utilidad.
 
 Archivos de configuración (Dentro de la carpeta Windows-Config):
 1. settings.json 
