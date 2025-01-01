@@ -90,7 +90,7 @@
 		/*--- 2 Default Values ---*/
 
 .theme-dark {
-	--dplus-backdrop: url(https://github.com/infinityxgame/Windows-Linux-Terminal-Config/blob/main/Windows.Terminal/arcane.png);
+	--dplus-backdrop: url(https://github.com/infinityxgame/Windows-Linux-Terminal-Config/blob/main/Windows.Terminal/arcane.png?raw=true);
 	
 	--dplus-accent-color-hue: 320;
 	--dplus-accent-color-saturation: 60%;
@@ -107,7 +107,7 @@
 	--dplus-background-color-alpha: 0.8;
 }
 .theme-light {
-	--dplus-backdrop: url(https://github.com/infinityxgame/Windows-Linux-Terminal-Config/blob/main/Windows.Terminal/arcane.png);
+	--dplus-backdrop: url(https://github.com/infinityxgame/Windows-Linux-Terminal-Config/blob/main/Windows.Terminal/arcane.png?raw=true);
 	
 	--dplus-accent-color-hue: 320;
 	--dplus-accent-color-saturation: 60%;
